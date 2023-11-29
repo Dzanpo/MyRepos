@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свяжитесь со мной</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+                <div class="container">
+                    <nav class="nav__box">
+                        <a href="/index.html" class="logo-btn">
+                            <img src="../images/logo.png" alt="logo">
+                        </a>
+                        <ul class="nav__elements">
+                            <li class="nav__element"><a href="/index.html">Главная</a></li>
+                            <li class="nav__element"><a href="../pages/contacts.html">Свяжитесь со мной</a></li>
+                            <li class="nav__element"><a href="../pages/links.html">Ссылки</a></li>
+                            <li class="nav__element"><a href="#">Архив</a></li>
+                            <li class="nav__element"><a href="#">Сообщество</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        <div class="contacts__block">
+            <div class="container contacts_container">
+            <div class="form">
+            <div class="container">
+                <h1 class="form__title main__title">Связаться со мной:</h1>
+                
+                <form name="contact__form" method="post" action="#" class="form__block" onsubmit="return false;">
+                    <h2>Заполните форму обратной связи:</h2>
+                    <input type="text" name="name" placeholder="Ваше имя" class="form__block-item">
+                    <input type="tel" name="phone" placeholder="Номер телефона" class="form__block-item">
+                    <br>
+                    <button type="submit" id="myBtn">Отправить</button>
+                </form>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Данные переданы</p>
+                </div>
+            </div>
+        </div>
+                <ul class="contacts">
+                    <li class="contact">+78005553535</li>
+                    <li class="contact"><a href="#"><img src="../images/tw.svg" alt="" class = "contact__img"></a></li>
+                    <li class="contact"><a href="#"><img src="../images/inst.svg" alt="" class = "contact__img"></a></li>
+                    <li class="contact"><a href="#"><img src="../images/fb.svg" alt="" class = "contact__img"></a></li>
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+        <div class="container">
+            <ul class="footer_contact">
+                <li class="footer_contact-item">Создал Станислав Иноземцев</li>
+                <li class="footer_contact-item">Студент группы КСП-216</li>
+            </ul>
+                            <li class="nav__element"><a href="/index.html">Главная</a></li>
+                            <li class="nav__element"><a href="../pages/contacts.html">Свяжитесь со мной</a></li>
+                            <li class="nav__element"><a href="../pages/links.html">Ссылки</a></li>
+                            <li class="nav__element"><a href="#">Архив</a></li>
+                            <li class="nav__element"><a href="#">Сообщество</a></li>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
